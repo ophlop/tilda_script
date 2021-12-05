@@ -1,5 +1,5 @@
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;
-            apikey=<ваш API-ключ>"
+            apikey=<ca3fc37c-7d39-44bb-9323-10cc53cc78ac>"
             type="text/javascript">
 </script>
 
