@@ -13,11 +13,11 @@ function init() {
             controls: []
         }),
 		
-		t-input.where_form = new ymaps.control.SearchControl({
+		/*t-input.where_form = new ymaps.control.SearchControl({
 			options: {
 				 size: 'large',
 				 provider: 'yandex#search'
-			}
+			}*/
 		});
     // Создадим панель маршрутизации.
         routePanelControl = new ymaps.control.RoutePanel({
@@ -46,6 +46,8 @@ function init() {
     routePanelControl.routePanel.state.set({
         fromEnabled: false,
         from: 'Пенза, улица Лермонтова, 36А'
+	toEnable: false,
+	to: t-input.where_form
 		}
      });
 
