@@ -13,7 +13,7 @@ function init() {
             controls: []
         }),
 		
-		where_form = new ymaps.control.SearchControl({
+		t-input.where_form = new ymaps.control.SearchControl({
 			options: {
 				 size: 'large',
 				 provider: 'yandex#search'
