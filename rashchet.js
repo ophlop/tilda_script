@@ -13,10 +13,10 @@ function init() {
             controls: []
         }),
 		
-		t-input.where_form = new ymaps.control.SearchControl({
+		/*t-input.where_form = new ymaps.control.SearchControl({
 			options: {
 				 size: 'large',
-				 provider: 'yandex#search'
+				 provider: 'yandex#search'*/
 			}
 		});
     // Создадим панель маршрутизации.
@@ -47,7 +47,11 @@ function init() {
         fromEnabled: false,
         from: 'Пенза, улица Лермонтова, 36А'
 	toEnable: false,
-	to: t-input.where_form
+	to: document.getElementByID('t-input-block where_form').value;
+	    
+	    /*function searchURL() {
+	    window.location = "https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp" + (input text value);
+            }*/
 		}
      });
 
