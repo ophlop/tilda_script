@@ -13,11 +13,11 @@ function init() {
             controls: []
         }),
 		
-		/*t-input.where_form = new ymaps.control.SearchControl({
+		t-input.where_form = new ymaps.control.SearchControl({
 			options: {
 				 size: 'large',
 				 provider: 'yandex#search'
-			}*/
+			}
 		});
     // Создадим панель маршрутизации.
         routePanelControl = new ymaps.control.RoutePanel({
