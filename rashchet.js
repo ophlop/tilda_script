@@ -93,6 +93,6 @@ function init() {
       return finalPrice;
     }
 /*var finalPrice
-document.getElementsBytagname('t-input-subtitle')[0].innerHTML = finalPrice;
+document.getElementsBytagname('t-input-subtitle t-descr t-descr_xxs t-opacity_70 lenght_info')[0].innerHTML = finalPrice;
 }
 </script>
