@@ -92,5 +92,7 @@ function init() {
       
       return finalPrice;
     }
+var finalPrice
+document.getElementsBytagname('t-input-subtitle')[0].innerHTML = finalPrice;
 }
 </script>
